@@ -137,8 +137,10 @@ const Hero = ({ className }) => {
               }}
               className="absolute bottom-0 lg:bottom-[200px] -left-[100px] z-[1]"
             >
-              <img
+              <Image
                 src="/images/dots.svg"
+                width={200}
+                height={200}
                 alt="Dots background image"
                 className="w-64"
               />
