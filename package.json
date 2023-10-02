@@ -11,11 +11,15 @@
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
+    "contentlayer": "^0.3.4",
+    "date-fns": "^2.30.0",
     "framer-motion": "^10.16.4",
     "next": "latest",
+    "next-contentlayer": "^0.3.4",
     "react": "latest",
     "react-dom": "latest",
     "react-icons": "^4.11.0",
+    "react-paginate": "^8.2.0",
     "swiper": "^10.3.1"
   },
   "devDependencies": {
