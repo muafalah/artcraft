@@ -214,7 +214,7 @@ const HowItWorks = ({ className }) => {
                       <h3 className="text-[18px] mb-4 duration-300 transition-all ease-in-out group-hover:text-white">
                         {step.title}
                       </h3>
-                      <p className="leading-relaxed text-[15px] text-gray-500 mb-7 duration-300 transition-all ease-in-out">
+                      <p className="leading-relaxed text-[15px] text-gray-500 mb-7 duration-300 transition-all ease-in-out group-hover:text-white">
                         {step.description}
                       </p>
                       <p>
