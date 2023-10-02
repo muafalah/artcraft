@@ -85,8 +85,7 @@ const About = ({ className }) => {
                 <Image
                   src="/images/img-square-2-min.jpg"
                   alt="About image"
-                  objectFit="cover"
-                  className="!w-full !h-[550px] lg:max-w-2xl object-center"
+                  className="object-cover !w-full !h-[550px] lg:max-w-2xl object-center"
                   width={400}
                   height={550}
                 />

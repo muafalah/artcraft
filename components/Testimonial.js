@@ -140,8 +140,7 @@ const Testimonial = ({ className }) => {
                         alt={testimonial.name}
                         width={379}
                         height={320}
-                        objectFit="cover"
-                        className="object-center !h-full !w-full"
+                        className="object-cover object-center !h-full !w-full"
                       />
                     </div>
                     <div className="md:w-8/12 p-7 md:p-16 flex items-center">

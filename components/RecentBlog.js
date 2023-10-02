@@ -41,8 +41,7 @@ const PostCard = ({ index, post }) => {
           alt={post.title}
           width={1064}
           height={644}
-          objectFit="cover"
-          className="object-center h-[200px] duration-300 transition-all ease-in-out group-hover:scale-[1.05]"
+          className="object-cover object-center h-[200px] duration-300 transition-all ease-in-out group-hover:scale-[1.05]"
         />
       </Link>
 
