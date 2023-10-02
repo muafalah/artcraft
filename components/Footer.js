@@ -147,7 +147,7 @@ const Footer = ({ className }) => {
                             <>
                               <span>{link.label}</span>
                               <span className="py-0.5 px-2 rounded-full bg-violet-100 border border-violet-600 text-[10px] text-violet-600 font-semibold">
-                                {link.label}
+                                {link.badge}
                               </span>
                             </>
                           ) : (
