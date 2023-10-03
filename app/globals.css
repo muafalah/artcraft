@@ -30,3 +30,10 @@
 .pagination li:last-child a {
   @apply w-auto px-3 md:px-5 rounded-none;
 }
+
+.prose h1,
+h2,
+h3,
+h4 {
+  @apply !font-medium text-slate-900;
+}

@@ -1,6 +1,3 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
 import Hero from "../about/components/Hero";
 import Projects from "./components/Projects";
 import CTA from "./components/CTA";
