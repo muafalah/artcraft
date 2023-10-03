@@ -5,6 +5,10 @@ import RecentBlog from "@/components/RecentBlog";
 import Subscribe from "@/components/Subscribe";
 import Testimonial from "@/components/Testimonial";
 
+export const metadata = {
+  title: "ArtCraft",
+};
+
 export default function Home() {
   return (
     <>

@@ -5,7 +5,11 @@ import WhyUs from "./components/WhyUs";
 import Team from "./components/Team";
 import Subscribe from "@/components/Subscribe";
 
-export default function About() {
+export const metadata = {
+  title: "About - ArtCraft",
+};
+
+export default function AboutPage() {
   return (
     <>
       <Hero className="pt-52 mb-24" />
