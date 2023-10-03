@@ -108,7 +108,7 @@ const Posts = ({ className, itemPerPage, archive = false, params }) => {
       }, 300);
       setClickPaginate(false);
     }
-  }, [itemOffset, itemPerPage, clickPaginate, items]);
+  }, [setCurrentItems, setPageCount, setClickPaginate]);
 
   const handlePageClick = (e) => {
     const newOffset = (e.selected * itemPerPage) % items.length;

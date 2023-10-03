@@ -67,7 +67,7 @@ const BlogContent = ({ post }) => {
                 className="font-medium"
               >
                 {category.title}
-                {i < post.categories.length - 1 ? "," : ""}
+                {i < post.categories.length - 1 ? ", " : ""}
               </Link>
             ))}
           </p>
