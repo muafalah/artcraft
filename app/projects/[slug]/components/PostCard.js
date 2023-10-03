@@ -5,8 +5,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const PostCard = ({ project, i }) => {
-  i *= 0.05;
+const PostCard = ({ data, index }) => {
+  index *= 0.05;
   return (
     <>
       <motion.div
@@ -18,20 +18,17 @@ const PostCard = ({ project, i }) => {
           opacity: 1,
           y: 0,
           transition: {
-            delay: 1,
+            delay: index,
             duration: 0.3,
           },
         }}
         viewport={{ once: true }}
         className={`relative overflow-hidden`}
       >
-        <Link
-          href={project.url}
-          className="relative block overflow-hidden group"
-        >
+        <Link href={data.url} className="relative block overflow-hidden group">
           <Image
-            src={project.image}
-            alt={project.title}
+            src={data.image}
+            alt={data.title}
             width={1064}
             height={644}
             className="object-cover object-center h-[400px] !max-w-full duration-300 transition-all ease-in-out group-hover:scale-[1.05]"
@@ -39,10 +36,10 @@ const PostCard = ({ project, i }) => {
         </Link>
 
         <div className="py-8 px-2">
-          <span className="block mb-1 text-gray-500">{project.role}</span>
+          <span className="block mb-1 text-gray-500">{data.role}</span>
           <h3 className="mb-4">
-            <Link href={project.url} className="text-2xl leading-none">
-              {project.title}
+            <Link href={data.url} className="text-2xl leading-none">
+              {data.title}
             </Link>
           </h3>
         </div>

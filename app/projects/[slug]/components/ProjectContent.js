@@ -91,7 +91,7 @@ const ProjectContent = ({ project }) => {
             .map((item, i) => {
               if (i > 2) return null;
 
-              return <PostCard key={i} i={i} project={item} />;
+              return <PostCard key={i} index={i} data={item} />;
             })}
         </div>
         <div className="flex justify-center mt-10">

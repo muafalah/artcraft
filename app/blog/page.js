@@ -1,4 +1,3 @@
-import React from "react";
 import Hero from "../about/components/Hero";
 import Posts from "./components/Posts";
 import Subscribe from "@/components/Subscribe";
