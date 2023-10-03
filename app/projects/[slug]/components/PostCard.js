@@ -18,12 +18,12 @@ const PostCard = ({ data, index }) => {
           opacity: 1,
           y: 0,
           transition: {
-            delay: index,
+            delay: 1,
             duration: 0.3,
           },
         }}
         viewport={{ once: true }}
-        className={`relative overflow-hidden`}
+        className="relative overflow-hidden"
       >
         <Link href={data.url} className="relative block overflow-hidden group">
           <Image

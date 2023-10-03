@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+*::-moz-selection {
+  @apply text-white bg-violet-600;
+}
+
+*::selection {
+  @apply text-white bg-violet-600;
+}
+
 .pagination {
   @apply mx-auto flex flex-wrap justify-between items-center space-x-0 md:space-x-2;
 }
